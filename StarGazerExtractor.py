@@ -17,7 +17,7 @@ def AppendList(fileA, listA):
 
 
 GitUser = input("Enter Github Username: ")
-PAN = input("Enter your Github Personal Access token: ")                # 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
+PAN = input("Enter your Github Personal Access token: ")              
 
 for subdir, dirs, files in os.walk(os.getcwd() + "/Processed-ReadMe-Files"):
     for k in range(0, len(files)):
